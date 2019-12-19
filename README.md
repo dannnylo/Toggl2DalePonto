@@ -18,6 +18,8 @@ Then edit your env variables.
 
 You will pass as arguments the start date and the finish date.
 
+If the env `REAL_PUNCH` is true the request will be sent, Also this script only will output the dates.
+
 ```shell
   ruby conver.rb 2019-12-16 2019-12-18
 ```
