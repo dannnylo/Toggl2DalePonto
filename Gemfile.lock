@@ -1,0 +1,60 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
+    awesome_print (1.8.0)
+    concurrent-ruby (1.1.5)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.5)
+    faraday (0.17.1)
+      multipart-post (>= 1.2, < 3)
+    http-accept (1.7.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    i18n (1.7.0)
+      concurrent-ruby (~> 1.0)
+    logger (1.4.2)
+    mime-types (3.3)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.1009)
+    minitest (5.13.0)
+    multipart-post (2.1.1)
+    netrc (0.11.0)
+    oj (3.10.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    tempus (1.0.1)
+      activesupport (> 5)
+    thread_safe (0.3.6)
+    togglv8 (1.2.1)
+      faraday
+      logger
+      oj
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
+    zeitwerk (2.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  dotenv
+  rest-client
+  tempus
+  togglv8
+
+BUNDLED WITH
+   1.17.3
